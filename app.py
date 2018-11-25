@@ -6,7 +6,7 @@ app = Flask(__name__)
 #app.logger.setLevel(DEBUG)
 
 bookmarks = []
-app.config['SECRET KEY'] = "\xb5\xab\xf2\x08fF\x08</\xa2\xceD\\\x00\x00\x8fa\x8f\xd5\xb4hY[r\xc1\xe9\x87\xb7V\xa9\xe8\xaa"
+app.config['SECRET_KEY'] = "\xb4_)\xc6I\xb2\x12\x9d6bs\xaa\xe4W\xc0\xe5)-BE8f\x9a\xfb"
 
 
 def store_bookmark(url):
